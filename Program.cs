@@ -1,7 +1,9 @@
 ﻿//Genética Mendeliana;
 string ind1, ind2, dominancia;
 Console.Clear();
+Console.ForegroundColor = ConsoleColor.DarkGreen;
 Console.WriteLine("--- Genética Mendeliana ---");
+Console.ResetColor();
 Console.Write("Alelos do indivíduo 1 (AA, Aa ou aa)...: ");
 ind1 = Console.ReadLine()!;
 Console.Write("Alelos do indivíduo 2 (AA, Aa ou aa)...: ");
@@ -10,7 +12,7 @@ Console.Write(@"Tipo de dominância (C/I)...............: ");
 dominancia = Console.ReadLine().ToUpper();
 Console.WriteLine(@"
 ");
-if (ind1 == "AA" || ind1 == "Aa" || ind1 == "aa" && ind2 == "AA" || ind2 == "Aa" || ind2 == "aa" && dominancia == "C" || dominancia == "I")
+if ((ind1 == "AA" || ind1 == "Aa" || ind1 == "aa") && (ind2 == "AA" || ind2 == "Aa" || ind2 == "aa") && (dominancia == "C" || dominancia == "I"))
 {
     switch (ind1)
     {
