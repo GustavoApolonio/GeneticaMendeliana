@@ -1,18 +1,26 @@
-﻿//Genética Mendeliana;
-string ind1, ind2, dominancia;
+﻿string ind1, ind2, dominancia;
+
 Console.Clear();
+
 Console.ForegroundColor = ConsoleColor.DarkGreen;
+
 Console.WriteLine("--- Genética Mendeliana ---");
+
 Console.ResetColor();
+
 Console.Write("Alelos do indivíduo 1 (AA, Aa ou aa)...: ");
 ind1 = Console.ReadLine()!;
+
 Console.Write("Alelos do indivíduo 2 (AA, Aa ou aa)...: ");
 ind2 = Console.ReadLine();
+
 Console.Write(@"Tipo de dominância (C/I)...............: ");
 dominancia = Console.ReadLine().ToUpper();
 Console.WriteLine(@"
 ");
+
 if ((ind1 == "AA" || ind1 == "Aa" || ind1 == "aa") && (ind2 == "AA" || ind2 == "Aa" || ind2 == "aa") && (dominancia == "C" || dominancia == "I"))
+
 {
     switch (ind1)
     {
@@ -31,14 +39,16 @@ a | Aa | aa");
                     Console.WriteLine(@"
 AA:   0% - não apresenta a característica recessiva
 Aa:  50% - não apresenta a característica recessiva
-aa:  50% - apresenta a característica recessiva");
+aa:  50% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  0% - apresenta a característica de `A`
 Aa:  50% - apresenta característica distinta de `A` e de `a`
-aa:  50% - apresenta a característica de `a`");
+aa:  50% - apresenta a característica de `a`
+");
                 }
             }
             else if (ind2 == "Aa") //posibilidade Aa
@@ -53,14 +63,16 @@ a | Aa | aa");
                     Console.WriteLine(@"
 AA:   25% - não apresenta a característica recessiva
 Aa:  50% - não apresenta a característica recessiva
-aa:  25% - apresenta a característica recessiva");
+aa:  25% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  25% - apresenta a característica de `A`
 Aa:  50% - apresenta característica distinta de `A` e de `a`
-aa:  25% - apresenta a característica de `a`");
+aa:  25% - apresenta a característica de `a`
+");
                 }
             }
             if (ind2 == "AA") //Possibilidade AA
@@ -75,14 +87,16 @@ A | AA | Aa");
                     Console.WriteLine(@"
 AA:   50% - não apresenta a característica recessiva
 Aa:  50% - não apresenta a característica recessiva
-aa:  0% - apresenta a característica recessiva");
+aa:  0% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  50% - apresenta a característica de `A`
 Aa:  50% - apresenta característica distinta de `A` e de `a`
-aa:  0% - apresenta a característica de `a`");
+aa:  0% - apresenta a característica de `a`
+");
                 }
             }
 
@@ -101,14 +115,16 @@ a | Aa | Aa");
                     Console.WriteLine(@"
 AA:   0% - não apresenta a característica recessiva
 Aa:  100% - não apresenta a característica recessiva
-aa:  0% - apresenta a característica recessiva");
+aa:  0% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  0% - apresenta a característica de `A`
 Aa:  100% - apresenta característica distinta de `A` e de `a`
-aa:  0% - apresenta a característica de `a`");
+aa:  0% - apresenta a característica de `a`
+");
                 }
             }
             else if (ind2 == "Aa")
@@ -122,14 +138,16 @@ a | Aa | Aa");
                     Console.WriteLine(@"
 AA:   50% - não apresenta a característica recessiva
 Aa:  50% - não apresenta a característica recessiva
-aa:  0% - apresenta a característica recessiva");
+aa:  0% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  50% - apresenta a característica de `A`
 Aa:  50% - apresenta característica distinta de `A` e de `a`
-aa:  0% - apresenta a característica de `a`");
+aa:  0% - apresenta a característica de `a`
+");
                 }
             }
             if (ind2 == "AA")
@@ -143,20 +161,22 @@ A | AA | AA");
                     Console.WriteLine(@"
 AA:   100% - não apresenta a característica recessiva
 Aa:  0% - não apresenta a característica recessiva
-aa:  0% - apresenta a característica recessiva");
+aa:  0% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  100% - apresenta a característica de `A`
 Aa:  0% - apresenta característica distinta de `A` e de `a`
-aa:  0% - apresenta a característica de `a`");
+aa:  0% - apresenta a característica de `a`
+");
                 }
             }
             //termino do AA
             break;
         case "aa":
-            Console.WriteLine(@"  | a |  a");
+            Console.WriteLine(@"  | a  |  a");
 
             if (ind2 == "aa")
             {
@@ -176,7 +196,8 @@ aa:  100% - apresenta a característica recessiva");
                     Console.WriteLine(@"
 AA:  0% - apresenta a característica de `A`
 Aa:  0% - apresenta característica distinta de `A` e de `a`
-aa:  100% - apresenta a característica de `a`");
+aa:  100% - apresenta a característica de `a`
+");
                 }
             }
             else if (ind2 == "Aa")
@@ -190,14 +211,16 @@ a | aa | aa");
                     Console.WriteLine(@"
 AA:   0% - não apresenta a característica recessiva
 Aa:  50% - não apresenta a característica recessiva
-aa:  50% - apresenta a característica recessiva");
+aa:  50% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  0% - apresenta a característica de `A`
 Aa:  50% - apresenta característica distinta de `A` e de `a`
-aa:  50% - apresenta a característica de `a`");
+aa:  50% - apresenta a característica de `a`
+");
                 }
             }
             if (ind2 == "AA")
@@ -211,14 +234,16 @@ A | Aa | Aa");
                     Console.WriteLine(@"
 AA:   0% - não apresenta a característica recessiva
 Aa:  100% - não apresenta a característica recessiva
-aa:  0% - apresenta a característica recessiva");
+aa:  0% - apresenta a característica recessiva
+");
                 }
                 else if (dominancia == "I")
                 {
                     Console.WriteLine(@"
 AA:  0% - apresenta a característica de `A`
 Aa:  100% - apresenta característica distinta de `A` e de `a`
-aa:  0% - apresenta a característica de `a`");
+aa:  0% - apresenta a característica de `a`
+");
                 }
             }
             break;
@@ -230,11 +255,7 @@ else
 {
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine(@" _____ ____  ____   ___  
-| ____|  _ \|  _ \ / _ \ 
-|  _| | |_) | |_) | | | |
-| |___|  _ <|  _ <| |_| |
-|_____|_| \_\_| \_\\___/ 
+    Console.WriteLine(@"Entrada inválida! Certifique-se de usar AA, Aa, aa e tipo C ou I.
 ");
     Console.ResetColor();
 }
