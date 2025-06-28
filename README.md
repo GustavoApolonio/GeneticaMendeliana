@@ -51,4 +51,4 @@ Geração dos filhos:
 - 50% Aa → aparência intermediária (mistura dos fenótipos).
 - 50% aa → aparência recessiva.
 
-Baixar programa [Clique aqui](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
+Para baixar o programa [Clique aqui](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
