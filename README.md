@@ -52,4 +52,4 @@ Geração dos filhos:
 - 50% aa → aparência recessiva.
 
 
-Baixar programa [Clique aqui](GeneticaMendeliana/dist/)
+Baixar programa [Clique aqui](PK)
