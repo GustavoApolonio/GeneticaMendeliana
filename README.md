@@ -38,18 +38,5 @@ Mostra como os genes dominantes e recessivos se combinam e determinam o que vai 
   - 50% `Aa` → aparência dominante.
   - 50% `aa` → aparência recessiva.
 
----
-## 📚 Exemplo prático: Aa × aa, dominância incompleta (I)
-
-|   | A  | a  |
-|---|----|----|
-| a | Aa | aa |
-| a | Aa | aa |
-
-Tipo de dominância: Dominância Incompleta (I)
-
-Geração dos filhos:
-- 50% Aa → aparência intermediária (mistura dos fenótipos).
-- 50% aa → aparência recessiva.
 
 Para baixar o programa [Clique aqui](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
