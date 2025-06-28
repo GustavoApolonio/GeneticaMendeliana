@@ -51,6 +51,4 @@ Geração dos filhos:
 - 50% Aa → aparência intermediária (mistura dos fenótipos).
 - 50% aa → aparência recessiva.
 
-
-Baixar programa [Clique aqui](PK) dist/publish.zip
 Baixar programa [Clique aqui](dist/publish.zip)
