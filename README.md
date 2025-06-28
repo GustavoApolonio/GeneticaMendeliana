@@ -53,3 +53,11 @@ Geração dos filhos:
 
 
 Para baixar o programa [Clique aqui](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
+
+# 🤓☝🏽  INTEGRANTES
+
+## Gabryel da Silva Lemos   -- 14498
+
+## Gustavo Apolonio da Silva Reis -- 14326
+
+## Marcos Kauan de Oliveira Barbosa -- 14308 
