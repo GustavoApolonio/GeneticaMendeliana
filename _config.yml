@@ -3,4 +3,4 @@ description: Simulador de Genética com base em Mendel
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-remote-theme
-show_downloads: true
+show_downloads: false
