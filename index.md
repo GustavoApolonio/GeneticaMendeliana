@@ -64,7 +64,7 @@ Mostra como os genes dominantes e recessivos se combinam e determinam o que vai 
 
 [➡️ Clique aqui para baixar o programa](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
 
-OBS:Para conseguir executar o codigo você tem que baixar o [.Net](https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.301/dotnet-sdk-9.0.301-win-x64.exe)
+OBS: Para conseguir executar o codigo você tem que baixar o [.Net](https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.301/dotnet-sdk-9.0.301-win-x64.exe)
 
 ---
 
