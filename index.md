@@ -32,10 +32,11 @@ Mostra como os genes dominantes e recessivos se combinam e determinam o que vai 
 
 ## 📚 Exemplo prático: `Aa × aa`, dominância completa (C)
 
-|   | A  | a  |
-|---|----|----|
-| a | Aa | aa |
-| a | Aa | aa |
+  | A  |  a
+-----------
+a | Aa | aa
+-----------
+a | Aa | aa
 
 - Tipo de dominância: **Dominância Completa (C)**
 
@@ -47,10 +48,11 @@ Mostra como os genes dominantes e recessivos se combinam e determinam o que vai 
 
 ## 📚 Exemplo prático: `Aa × aa`, dominância incompleta (I)
 
-|   | A  | a  |
-|---|----|----|
-| a | Aa | aa |
-| a | Aa | aa |
+  | A  |  a
+-----------
+a | Aa | aa
+-----------
+a | Aa | aa
 
 - Tipo de dominância: **Dominância Incompleta (I)**
 
