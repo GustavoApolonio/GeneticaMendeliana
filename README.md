@@ -62,4 +62,4 @@ Para baixar o programa [Clique aqui](https://github.com/GustavoApolonio/Genetica
 
 ## Marcos Kauan de Oliveira Barbosa -- 14308 
 
-theme: jekyll-theme-midnight
+<link rel="stylesheet" href="/assets/css/style.css">
