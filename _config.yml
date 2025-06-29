@@ -1,4 +1,2 @@
-title: Genética Mendeliana
-description: Simulador de Genética com base em Mendel
-
-show_downloads: true
+sass:
+  style: compressed
