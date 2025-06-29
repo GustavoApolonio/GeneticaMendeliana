@@ -62,7 +62,7 @@ Mostra como os genes dominantes e recessivos se combinam e determinam o que vai 
 
 ## 📥 Baixe o programa
 
-[➡️ Clique aqui para baixar o programa (publish.zip)](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
+[➡️ Clique aqui para baixar o programa](https://github.com/GustavoApolonio/GeneticaMendeliana/raw/refs/heads/main/dist/publish.zip)
 
 ---
 
